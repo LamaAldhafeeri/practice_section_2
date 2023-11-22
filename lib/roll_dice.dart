@@ -3,10 +3,11 @@ import 'package:first_app/styledText.dart';
 import 'dart:math';
 
 class DiceRoller extends StatefulWidget{
+  const DiceRoller({super.key});
+
   @override
-  State<DiceRoller> createState(){
-    return _DiceRollerState();
-  }
+  State<DiceRoller> createState() => _DiceRollerState();
+
 }
 
 class _DiceRollerState extends State<DiceRoller>{
